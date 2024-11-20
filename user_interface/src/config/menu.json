@@ -1,0 +1,38 @@
+{
+  "main": [
+    {
+      "name": "Home",
+      "url": "/"
+    },
+    {
+      "name": "Booking",
+      "url": "/booking"
+    },
+    {
+      "name": "My Bookings",
+      "url": "/mybookings"
+    },
+    {
+      "name": "About",
+      "url": "/about"
+    },
+    {
+      "name": "Contact",
+      "url": "/contact"
+    }
+  ],
+  "footer": [
+    {
+      "name": "Booking",
+      "url": "/booking"
+    },
+    {
+      "name": "Privacy Policy",
+      "url": "/privacy-policy"
+    },
+    {
+      "name": "About",
+      "url": "/about"
+    }
+  ]
+}

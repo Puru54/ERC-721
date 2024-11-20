@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @import "base";
+}
+
+@layer components {
+  @import "components";
+  @import "navigation";
+  @import "buttons";
+}
+
+@layer utilities {
+  @import "utilities";
+}
+
+.customLoader {
+  height: 80px;
+  width: 80px;
+  border: 12px solid #f4f4f4;
+  border-radius: 50%;
+  border-right-color: #3a6df7;
+  animation: spin 1.3s ease infinite;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
