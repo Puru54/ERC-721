@@ -9,21 +9,21 @@ module.exports = {
       port: 7545, // Use the default Ethereum RPC port (8545) or specify your custom port
       network_id: "*", // Match any network ID (default is "*")
     },
-    sepolia: {
-      provider: () => {
-        const provider = new HDWalletProvider(
-          MNEMONIC,
-          `https://sepolia.infura.io/v3/${PROJECT_ID}`
-        );
-        // console.log("Provider initialized:", provider);
-        return provider;
-      },
-      network_id: 11155111,
-      confirmations: 2,
-      timeoutBlocks: 200,
-      networkCheckTimeout: 10000, // Set the timeout in milliseconds
-      skipDryRun: true,
-    },
+    // sepolia: {
+    //   provider: () => {
+    //     const provider = new HDWalletProvider(
+    //       MNEMONIC,
+    //       `https://sepolia.infura.io/v3/${PROJECT_ID}`
+    //     );
+    //     // console.log("Provider initialized:", provider);
+    //     return provider;
+    //   },
+    //   network_id: 11155111,
+    //   confirmations: 2,
+    //   timeoutBlocks: 200,
+    //   networkCheckTimeout: 10000, // Set the timeout in milliseconds
+    //   skipDryRun: true,
+    // },
   },
 
   // Set default mocha options here, use special reporters, etc.
